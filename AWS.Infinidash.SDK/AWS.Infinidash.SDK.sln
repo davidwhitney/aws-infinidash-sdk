@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon.Infinidash.SDK", "AWS.Infinidash.SDK\Amazon.Infinidash.SDK.csproj", "{9815C742-80E9-4835-B605-41CA1B224063}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonInfinidash.SDK", "AWS.Infinidash.SDK\AmazonInfinidash.SDK.csproj", "{9815C742-80E9-4835-B605-41CA1B224063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon.Infinidash.SDK.Demo", "Amazon.Infinidash.SDK.Demo\Amazon.Infinidash.SDK.Demo.csproj", "{2F6D31F5-DDC8-482E-A2A3-23503909D44F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonInfinidash.SDK.Demo", "Amazon.Infinidash.SDK.Demo\AmazonInfinidash.SDK.Demo.csproj", "{2F6D31F5-DDC8-482E-A2A3-23503909D44F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

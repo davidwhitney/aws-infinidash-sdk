@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AWS.Infinidash.SDK\Amazon.Infinidash.SDK.csproj" />
+    <ProjectReference Include="..\AWS.Infinidash.SDK\AmazonInfinidash.SDK.csproj" />
   </ItemGroup>
 
 </Project>
