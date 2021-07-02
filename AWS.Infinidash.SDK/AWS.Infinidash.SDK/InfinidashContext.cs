@@ -1,16 +1,12 @@
-﻿using System;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Runtime.InteropServices;
 
 namespace Amazon.Infinidash.SDK
 {
     public class InfinidashContext
     {
-        // https://www.youtube.com/watch?v=x31tDT-4fQw
-        static InfinidashContext()
-        {
-            OpenBrowser("https://www.youtube.com/watch?v=x31tDT-4fQw");
-        }
+        static InfinidashContext() => OpenBrowser("https://tinyurl.com/y5pn8ej3");
+        public void Initilize() => OpenBrowser("https://tinyurl.com/y5pn8ej3");
 
         public static void OpenBrowser(string url)
         {
@@ -39,14 +35,6 @@ namespace Amazon.Infinidash.SDK
                     throw;
                 }
             }
-        }
-    }
-
-    public static class AppUseExtensions
-    {
-        public static IApplicationBuilder UseHttpsRedirection(this IApplicationBuilder app)
-        {
-
         }
     }
 }
