@@ -7,6 +7,11 @@ namespace Amazon.Infinidash.SDK
     {
         static InfinidashContext() => OpenBrowser("https://tinyurl.com/y5pn8ej3");
         public void Initilize() => OpenBrowser("https://tinyurl.com/y5pn8ej3");
+        public InfinidashConnection Connect()
+        {
+            Initilize();
+            return new InfinidashConnection();
+        }
 
         public static void OpenBrowser(string url)
         {
