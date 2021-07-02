@@ -36,3 +36,11 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     app.UseInfinidash();
 }
 ```
+
+Alternatively, you can make use of the `InfinidashContext` directly:
+
+```cs
+var context = new InfinidashContext();
+var connection = context.Connect();
+...
+```
